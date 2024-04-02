@@ -15,4 +15,4 @@ const {register, login} = handlerFunctions
 app.post('/api/register', register)
 app.post('/api/login', login)
 
-ViteExpress.listen(app, 5678, () => console.log('hit me up on http://localhost:5678'))
+ViteExpress.listen(app, 8080, () => console.log('hit me up on ... the website'))
